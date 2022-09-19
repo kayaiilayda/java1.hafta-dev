@@ -1,0 +1,20 @@
+package conditionals;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 50;
+		if (number<50) {
+			System.out.println("Bu sayi 50'den kucuktur.");
+		}
+		else if (number == 50) {
+			System.out.println("Bu sayi 50'ye esittir.");
+
+		}
+		else {
+			System.out.println("Bu sayi 50'den buyuktur.");
+		}
+		
+	}
+
+}
