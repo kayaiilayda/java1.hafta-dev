@@ -1,0 +1,15 @@
+package degiskenler;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int ogrenciNo = 12;
+		String mesaj = "Ogrenci No : ";
+		System.out.println(mesaj + ogrenciNo);
+		System.out.println(mesaj + ogrenciNo);
+		System.out.println(mesaj + ogrenciNo);
+		System.out.println(mesaj + ogrenciNo);
+		
+	}
+
+}
