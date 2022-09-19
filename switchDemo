@@ -1,0 +1,29 @@
+package switchDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char not = 'C';
+
+		switch (not) {
+		case 'A':
+			System.out.println("Mukemmel : Kursu gectiniz. ");
+			break;
+		case 'B':
+		case 'C':
+			System.out.println("Iyi : Gectiniz.");
+			break;
+		case 'D':
+			System.out.println("Normal : Gectiniz.");
+			break;
+		case 'E':
+			System.out.println("Maalesef : Kaldiniz.");
+			break;
+
+		default:
+			System.out.println("Gecersiz not girdiniz.");
+
+		}
+	}
+
+}
